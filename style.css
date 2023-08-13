@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+    margin: 20px 0px 80px 0px;
+    font-size: 30px;
+    
+}
+
+.gameboard-container{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+   
+}
+
+.box0, .box1, .box2, .box3, .box4, .box5{
+    /* background-color: red; */
+    border-bottom: 8px solid black;
+}
+
+.box0, .box1, .box3, .box4, .box6, .box7{
+    border-right: 8px solid black
+}
